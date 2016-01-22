@@ -26,27 +26,21 @@ users
 
 default
 
-  express
+  * express
+    * package.json.conf
+    * server.conf
 
-    package.json.conf
-
-    server.conf
-
-  nginx
-
-    nginx.conf
+  * nginx
+    * nginx.conf
 
 ## Templates
 
 default
 
-  init.d
+  * init.d
+    * nodejs-service.erb
 
-    nodejs-service.erb
-
-  nginx
-
-    sites-enabled
-    
-      express.erb
+  * nginx
+    * sites-enabled
+      * express.erb
 
