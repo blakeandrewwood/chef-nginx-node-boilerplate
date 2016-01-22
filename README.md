@@ -3,12 +3,15 @@
 ## Requires
 
 ChefDK
+
 Docker
 
 # Local Setup
 
 `cd cookbooks/demo`
+
 `berks install`
+
 `kitchen converge default-ubuntu-1404`
 
 Go to `http://localhost/` to see the Express Node App.
