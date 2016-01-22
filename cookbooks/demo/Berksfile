@@ -1,0 +1,8 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'chef-solo-search', '~> 0.5.1'
+cookbook 'sudo', '~> 2.7.2'
+cookbook 'users', '~> 2.0.1'
+cookbook 'nvm', '~> 0.1.7'

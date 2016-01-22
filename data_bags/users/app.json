@@ -1,0 +1,9 @@
+{
+  "id"       : "app",
+  "uid"      : 7460,
+  "comment"  : "App",
+  "home"     : "/home/app",
+  "shell"    : "/bin/bash",
+  "groups"   : ["app"],
+  "shell"    : "/bin/bash"
+}

@@ -1,0 +1,16 @@
+server {
+  listen 80 default_server;
+  listen [::]:80 default_server ipv6only=on;
+
+  server_name localhost;
+
+  location / {
+    root /home/app/express;
+    index index.html index.htm default.html default.htm;
+
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto https;
+    proxy_set_header X-Forwarded-Ssl on;
+    proxy_pass http://127.0.0.1:3000;
+  }
+}
