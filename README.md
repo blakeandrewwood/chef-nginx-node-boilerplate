@@ -18,28 +18,23 @@ Go to `http://localhost/` to see the Express Node App.
 
 ## Data bags
 
-users
-
-  app.json
+* users
+  * app.json
 
 ## Files
 
-default
-
+* default
   * express
     * package.json.conf
     * server.conf
-
   * nginx
     * nginx.conf
 
 ## Templates
 
-default
-
+* default
   * init.d
     * nodejs-service.erb
-
   * nginx
     * sites-enabled
       * express.erb
